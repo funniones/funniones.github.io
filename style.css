@@ -93,6 +93,17 @@ body {
     justify-content: center;
 }
 
+.fofinner {
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    margin: 0;
+    position: relative;
+    top: 15%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 .infotext {
     font-size: 24px;
     color: white;
