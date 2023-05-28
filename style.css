@@ -7,7 +7,7 @@ body {
     background: #664c8f;
     height: 30%;
     width: 100%;
-    top:0;
+    top: 6%;
     right: 0;
     display: flex;
     align-items: center;
@@ -38,11 +38,11 @@ body {
     float: left;
     position: absolute;
     background: rgb(39, 39, 39);
-    height: 67%;
+    height: 61%;
     width: 30%;
     margin-top: 1%;
     border-radius: 20px;
-    top: 30%;
+    top: 36%;
     left: 0;
     margin-left: 1%;
     display: flex;
@@ -89,26 +89,26 @@ body {
 }
 
 #info {
-    overflow:hidden;
+    overflow: hidden;
     background: rgb(39, 39, 39);
-    height: 67%;
+    height: 61%;
     width: 67%;
     border-radius: 20px;
     margin: 1% 1% 1% 1%;
-    position:absolute;
+    position: absolute;
     right: 0;
-    top:30%;
+    top: 36%;
 }
 
 #finfo {
-    overflow:hidden;
+    overflow: hidden;
     background: rgb(39, 39, 39);
-    height: 67%;
-    width: 100%;
+    height: 61%;
+    width: -webkit-fill-available;
     border-radius: 20px;
-    position:relative;
-    margin: 1% 1% 1% 0%;
-    top:30%;
+    margin: 1% 1% 1% 1%;
+    position: absolute;
+    top: 36%;
 }
 
 .infoinner {
