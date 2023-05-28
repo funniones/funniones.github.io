@@ -36,7 +36,7 @@ body {
 
 #listen {
     float: left;
-    position: fixed;
+    position: absolute;
     background: rgb(39, 39, 39);
     height: 67%;
     width: 30%;
@@ -94,7 +94,7 @@ body {
     width: 67%;
     border-radius: 20px;
     margin: 1% 1% 1% 1%;
-    position:fixed;
+    position:absolute;
     right: 0;
     top:30%;
 }
