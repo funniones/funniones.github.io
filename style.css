@@ -23,13 +23,13 @@ body {
 
 .toptext {
     color: white;
-    font-size:2vw;
+    font-size: min(3vh, 5vw);
     font-family: Arial;
     text-align: center;
 }
 
 .logo {
-    width: 30%;
+    width: min(15vh, 10vw);
     margin: auto;
     display: block;
 }
@@ -80,7 +80,7 @@ body {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    font-size: min(3vh, 4vw);
+    font-size: min(2vh, 4vw);
     color: white;
     background-color: rgb(80, 80, 80);
     border-radius: 20px;
@@ -132,7 +132,7 @@ body {
 }
 
 .infotext {
-    font-size: max(2.7vw, 18px);
+    font-size: min(3vh, 5vw);
     color: white;
     font-family: Arial;
     text-align: center;
