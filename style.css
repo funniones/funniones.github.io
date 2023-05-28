@@ -3,44 +3,15 @@ body {
 }
 
 #header {
-    position: relative;
+    position: absolute;
     background: #664c8f;
-    height: 290px;
+    height: 30%;
+    width: 100%;
+    top:0;
+    right: 0;
 }
 
 .firstheads {
-    margin: 0;
-    position: absolute;
-    top: 12%;
-    transform: translateY(-50%);
-    left: 50%;
-    transform: translateX(-50%);
-}
-
-.toptext {
-    color: white;
-    font-family: Arial;
-    text-align: center;
-}
-
-.logo {
-    width: 100px;
-    margin: auto;
-    display: block;
-}
-
-#listen {
-    float: left;
-    position: relative;
-    background: rgb(39, 39, 39);
-    height: 470px;
-    width: 300px;
-    margin: 10px 10px 10px 10px;
-    margin-top: 10px;
-    border-radius: 20px
-}
-
-.links {
     margin: 0;
     position: absolute;
     top: 5%;
@@ -49,45 +20,99 @@ body {
     transform: translateX(-50%);
 }
 
+.toptext {
+    color: white;
+    font-size:2vw;
+    font-family: Arial;
+    text-align: center;
+}
+
+.logo {
+    width: 30%;
+    margin: auto;
+    display: block;
+}
+
+#listen {
+    float: left;
+    position: fixed;
+    background: rgb(39, 39, 39);
+    height: 67%;
+    width: 30%;
+    margin-top: 1%;
+    border-radius: 20px;
+    top: 30%;
+    left: 0;
+    margin-left: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links {
+    margin: 0;
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .links h2 {
     color: white;
+    font-size: 3vw;
     font-family: Arial;
     text-align: center;
 }
 
 .links img {
-    width: 30px;
+    width: 10%;
 }
 
 .links button {
-    width: 220px;
-    height: 50px;
+    width: 95%;
+    height: 10%;
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    font-size: 20px;
+    font-size: 2.4vw;
     color: white;
     background-color:rgb(80, 80, 80);
     border-radius: 20px;
     border-style: solid;
-    margin: 10px 10px 10px 10px;
+    margin: 3% 3% 3% 3%;
 }
 
 #info {
     overflow:hidden;
     background: rgb(39, 39, 39);
-    height: 470px;
-    width: auto;
+    height: 67%;
+    width: 67%;
     border-radius: 20px;
-    margin: 10px 10px 10px 10px;
-    align-items: center;
-    justify-content: center;
+    margin: 1% 1% 1% 1%;
+    position:fixed;
+    right: 0;
+    top:30%;
+}
+
+#finfo {
+    overflow:hidden;
+    background: rgb(39, 39, 39);
+    height: 67%;
+    width: 100%;
+    border-radius: 20px;
+    position:relative;
+    margin: 1% 1% 1% 0%;
+    top:30%;
 }
 
 .infoinner {
     width: -webkit-fill-available;
     height: -webkit-fill-available;
-    margin: 10px 10px 10px 10px;
+    margin: 1% 1% 1% 1%;
     display: inline-flex;
     align-items: center;
     justify-content: center;
@@ -105,7 +130,7 @@ body {
 }
 
 .infotext {
-    font-size: 24px;
+    font-size: 2.4vw;
     color: white;
     font-family: Arial;
     text-align: center;
