@@ -1,6 +1,6 @@
 
 
-.news p, h1, h2, h3, h4, h5, h6 {
+.news p, .news h1, .news h2, .news h3, .news h4, .news h5, .news h6 {
     color: white;
     font-size: max(2vw, 2vh);
     font-family: Arial;

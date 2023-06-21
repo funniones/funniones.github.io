@@ -71,7 +71,7 @@ body {
 }
 
 .links img {
-    width: 10%;
+    width: max(2vh, 3vw);
 }
 
 .links button {
