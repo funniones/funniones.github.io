@@ -55,7 +55,6 @@ body {
     position: absolute;
     width: 90%;
     height: 90%;
-    top: 0;
     display: flex;
     flex-direction: column;
     justify-content: center;
