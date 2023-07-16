@@ -1,0 +1,154 @@
+body {
+    background-color: rgb(80, 80, 80);
+}
+
+#header {
+    position: absolute;
+    background: #664c8f;
+    height: 30%;
+    width: 100%;
+    top: 6%;
+    right: 0;
+    display: flex;
+    align-items: center;
+}
+
+.firstheads {
+    margin: 0;
+    position: absolute;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.toptext {
+    color: white;
+    font-size: min(3vh, 5vw);
+    font-family: Arial;
+    text-align: center;
+}
+
+.logo {
+    width: min(15vh, 10vw);
+    margin: auto;
+    display: block;
+}
+
+#listen {
+    float: left;
+    position: absolute;
+    background: rgb(39, 39, 39);
+    height: 61%;
+    width: 30%;
+    margin-top: 1%;
+    border-radius: 20px;
+    top: 36%;
+    left: 0;
+    margin-left: 1%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links {
+    margin: 0;
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.links h2 {
+    color: white;
+    font-size: min(3vh, 5vw);
+    font-family: Arial;
+    text-align: center;
+    margin: 1% 1% 1% 1%;
+}
+
+.links img {
+    width: max(2vh, 3vw);
+}
+
+.links button {
+    width: 95%;
+    height: min(60px, 40%);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: min(2vh, 4vw);
+    color: white;
+    background-color: rgb(80, 80, 80);
+    border-radius: 20px;
+    border-style: solid;
+    margin: 4% 3% 4% 3%;
+}
+
+#info {
+    overflow: hidden;
+    background: rgb(39, 39, 39);
+    height: 61%;
+    width: 67%;
+    border-radius: 20px;
+    margin: 1% 1% 1% 1%;
+    position: absolute;
+    right: 0;
+    top: 36%;
+}
+
+#finfo {
+    overflow: hidden;
+    background: rgb(39, 39, 39);
+    height: 61%;
+    width: -webkit-fill-available;
+    border-radius: 20px;
+    margin: 1% 1% 1% 1%;
+    position: absolute;
+    top: 36%;
+}
+
+.infoinner {
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    margin: 1% 1% 1% 1%;
+    overflow-y: scroll;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fofinner {
+    width: -webkit-fill-available;
+    height: -webkit-fill-available;
+    margin: 0;
+    position: relative;
+    top: 15%;
+    transform: translateY(-50%);
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.infotext {
+    font-size: min(4.2vh, 5vw);
+    color: white;
+    font-family: Arial;
+    text-align: center;
+    margin: 1% 1% 1% 1%;
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+}
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 0 6px rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
