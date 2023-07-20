@@ -29,19 +29,22 @@ body {
 }
 
 .logo {
-    width: min(6vh, 12vw);
+    width: min(15vh, 10vw);
     margin: auto;
     display: block;
 }
 
 #listen {
+    float: left;
     position: absolute;
     background: rgb(39, 39, 39);
-    height: 20vh;
-    width: 98.5vw;
+    height: 61%;
+    width: 30%;
+    margin-top: 1%;
     border-radius: 20px;
-    top: 7vh;
-    left: 0.8vw;
+    top: 36%;
+    left: 0;
+    margin-left: 1%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -58,22 +61,8 @@ body {
     align-items: center;
 }
 
-.flexlinks {
-    margin: 0;
-    top: 25%;
-    position: absolute;
-    width: 90%;
-    height: 90%;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
 .links h2 {
     color: white;
-    top: 14%;
-    position: absolute;
     font-size: min(3vh, 5vw);
     font-family: Arial;
     text-align: center;
@@ -81,7 +70,7 @@ body {
 }
 
 .links img {
-    width: 6vh;
+    width: max(2vh, 3vw);
 }
 
 .links button {
@@ -92,21 +81,22 @@ body {
     justify-content: center;
     font-size: min(2vh, 4vw);
     color: white;
-    background-color: rgb(80 80 80 / 0%);
+    background-color: rgb(80, 80, 80);
     border-radius: 20px;
-    border-style: none;
+    border-style: solid;
     margin: 4% 3% 4% 3%;
 }
 
 #info {
     overflow: hidden;
     background: rgb(39, 39, 39);
-    height: 71vh;
-    width: 98.5vw;
+    height: 61%;
+    width: 67%;
     border-radius: 20px;
+    margin: 1% 1% 1% 1%;
     position: absolute;
-    left: 0.8vw;
-    top: 28vh;
+    right: 0;
+    top: 36%;
 }
 
 #finfo {
@@ -121,17 +111,6 @@ body {
 }
 
 .infoinner {
-    width: -webkit-fill-available;
-    height: -webkit-fill-available;
-    margin: 1% 1% 1% 1%;
-    overflow-y: hidden;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.ninfoinner {
     width: -webkit-fill-available;
     height: -webkit-fill-available;
     margin: 1% 1% 1% 1%;

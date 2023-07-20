@@ -1,0 +1,21 @@
+
+
+.news p, .news h1, .news h3, .news h4, .news h5, .news h6 {
+    color: white;
+    font-size: max(2vw, 2vh);
+    font-family: Arial;
+    text-align: center;
+    margin: 1% 1% 1% 1%;
+}
+
+.news {
+    margin: 1vh 0 1vh 0;
+}
+
+.news h2 {
+    color:aqua;
+    font-size: max(2vw, 2vh);
+    font-family: Arial;
+    text-align: center;
+    margin: 1% 1% 1% 1%;
+}
